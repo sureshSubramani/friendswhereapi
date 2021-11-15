@@ -75,8 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'   => 'pgsql:host=ec2-52-201-195-11.compute-1.amazonaws.com;port=5432;dbname=dfa1ma7e2surtn;user=dccennviggxrnv;password=d5230afcad42b5891101c5de9bfeef270bec78b6f6402d20b508a07e53e864aa',
-	//'dsn'	=> '',
-	'hostname' => 'localhost',
+	'hostname' => 'pgsql:host=ec2-52-201-195-11.compute-1.amazonaws.com:8080;dbname=dfa1ma7e2surtn',
 	'username' => 'dccennviggxrnv',
 	'password' => 'd5230afcad42b5891101c5de9bfeef270bec78b6f6402d20b508a07e53e864aa',
 	'database' => 'dfa1ma7e2surtn',
